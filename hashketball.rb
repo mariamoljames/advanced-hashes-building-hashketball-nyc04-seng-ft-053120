@@ -6,6 +6,6 @@ def game_hash
     game_hash[count][:colors]=[]
     game_hash[count][:players]=[]
   end
-
+  game_hash
 
 end
