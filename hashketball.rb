@@ -7,6 +7,7 @@ def game_hash
     game_hash[game_hash.keys[count]][:team_name]=game_hash.keys[count].to_s
     game_hash[game_hash.keys[count]][:colors]=[]
     game_hash[game_hash.keys[count]][:players]=[]
+    count+=1
   end
   binding.pry
   game_hash
