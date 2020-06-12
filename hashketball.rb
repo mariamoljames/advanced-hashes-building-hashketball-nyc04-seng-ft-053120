@@ -4,7 +4,7 @@ def game_hash
   while count<game_hash.length do
     game_hash[count][:team_name]=""
     game_hash[count][:colors]=[]
-    game_hash[count][:players]
+    game_hash[count][:players]=[]
   end
 
 
