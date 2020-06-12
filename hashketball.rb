@@ -1,5 +1,5 @@
 def game_hash
-  hashketball={}
-  hashketball[:home]={}
-  hashketball[:away]={}
+  game_hash={}
+  game_hash[:home]={}
+  game_hash[:away]={}
 end
